@@ -19,13 +19,3 @@ for(var x = 0; x <links.length;x++){
         menu_visible = false;
     }
 }
-window.onscroll = function(){
-    efectoHabilidades();
-}
-$.ajax({
-    url: 'https://randomuser.me/api/',
-    dataType: 'json',
-    success: function(data) {
-      console.log(data);
-    }
-  });
