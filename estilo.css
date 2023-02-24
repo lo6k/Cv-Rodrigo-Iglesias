@@ -170,7 +170,7 @@ html{
 
 /* SECCION HABILIDADES */
 .habilidades{
-    padding: 140px 0 240px 0;
+    padding: 100px 0 100px 0;
     text-align: center;
     border: 10px;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
@@ -183,27 +183,27 @@ html{
 .habilidades .contenido-seccion{
     max-width: 1000px;
     margin: auto;
-    padding: 0 10px;
+    padding: 0px 10px;
 }
 .habilidades .contenido-seccion h3{
     text-transform: uppercase;
     font-size: 30px;
     color: #e2e0e0
+    
 }
-
-
-.habilidades .contenido-seccion .img01{
-    float: left;
-
-    width: 20px;
-    height: 20px;
+.habilidades .contenido-seccion .img-habilidades{
+    border-radius: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 
 /* SECCION RESUMEN */
 .resumen{
     background-color: #e6e6e6;
-    padding: 100px 0 100px 0;
+    padding: 200px 0 100px 0;
     text-align: center;
 }
 .resumen .contenido-seccion{
