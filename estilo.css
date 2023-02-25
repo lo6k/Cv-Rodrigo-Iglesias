@@ -189,21 +189,21 @@ html{
     text-transform: uppercase;
     font-size: 30px;
     color: #e2e0e0
-    
 }
-.habilidades .contenido-seccion .img-habilidades{
-    border-radius: 100px;
-    height: 200px;
+.habilidades .contenido-seccion .txt-habilidades{
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    align-items: end;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(/imagenes/html.png);
+    background-size: cover;
+    background-position: center;
 }
-
-
 /* SECCION RESUMEN */
 .resumen{
     background-color: #e6e6e6;
-    padding: 200px 0 100px 0;
+    padding: 100px 0 100px 0;
     text-align: center;
 }
 .resumen .contenido-seccion{
